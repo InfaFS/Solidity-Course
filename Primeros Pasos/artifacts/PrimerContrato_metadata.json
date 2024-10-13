@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Primeros Pasos/conceptos_basicos.sol": "PrimerContrato"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Primeros Pasos/conceptos_basicos.sol": {
+			"keccak256": "0xc6f33df295707812eee67c95e914423853d2ca155350dfa9325e19b8ec017760",
+			"urls": [
+				"bzz-raw://b04e6bff79abe2c90b9ff7bf1b56dca5d446dbdaac0e9aab2cbc2765fc5a5bfb",
+				"dweb:/ipfs/QmSD8uYbYj9LEtVgCkUnXPHu2GLiiGJpuURCUg6uZKg3WL"
+			]
+		}
+	},
+	"version": 1
+}
