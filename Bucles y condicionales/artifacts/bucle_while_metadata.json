@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "espera",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fijarTiempo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_p",
+						"type": "uint256"
+					}
+				],
+				"name": "siguientePrimo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "suma_imapres",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bucles y condicionales/bucle_while.sol": "bucle_while"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bucles y condicionales/bucle_while.sol": {
+			"keccak256": "0x734e41c757e8e4cb4c97b6c9ae0d96b7ac3131e405788cf2f9d4f923a36fc2b3",
+			"urls": [
+				"bzz-raw://3a76343de67ea8e6d56e6b4a1df61f3303a73ad62ca4d025a1faca9c20552828",
+				"dweb:/ipfs/QmdNAByf3RYn9dG8cxVQdbLTUXoeYiMfQJrUxYYFZ3yNmn"
+			]
+		}
+	},
+	"version": 1
+}
