@@ -19,11 +19,11 @@ contract Eventos {
         emit evento_2(_nombrePersona, _edad);
     }
 
-    function EmitirEvento3(string memory _nombre, uint _edad) public {
+    function EmitirEvento3(string memory _nombrePersona, uint _edad) public {
         bytes32 hash_id = keccak256(
-            abi.encodePacked(_nombre, _edad, msg.sender)
+            abi.encodePacked(_nombrePersona, _edad, msg.sender)
         );
-        emit nombre_evento3(_nombrePersona, _edad, msg.sender, hash_id);
+        emit evento3(_nombrePersona, _edad, msg.sender, hash_id);
     }
 
     function AbortarMision() public {
