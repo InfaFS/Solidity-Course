@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"herencia/herencias.sol": "Banco3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"herencia/herencias.sol": {
+			"keccak256": "0x1e778e3cda89a87d89ee73c5a0cd6fbb0f58ddd00f0476b047355a011f264c3f",
+			"urls": [
+				"bzz-raw://4968af69572e5c8ae7b73e8b2de03d25d962e6d7ad7fc073c690818d8e746c16",
+				"dweb:/ipfs/QmZDNd2c7NxNcwpGRbgFXUXohaZ494eoC9vJFNK8LoGpcq"
+			]
+		}
+	},
+	"version": 1
+}

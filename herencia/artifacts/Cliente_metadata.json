@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "AltaCliente",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_cliente",
+						"type": "string"
+					}
+				],
+				"name": "consultarDinero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "ingresarDinero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "nuevoCliente",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "retirarDinero",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"herencia/cliente.sol": "Cliente"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"herencia/cliente.sol": {
+			"keccak256": "0x12c47bc8394a37f4726e670ff4aa56fea5f003bab586a6f6678bad9ba27bf5e2",
+			"urls": [
+				"bzz-raw://fd704cef4cba5eef9ffef463b2a26eadcbcca0e31a0aa723d3d21c012dc7052e",
+				"dweb:/ipfs/QmNbf8g4f2otu34DRkcLz6iBk2RJAZspdk6MQaa8d4yNUW"
+			]
+		},
+		"herencia/herencias.sol": {
+			"keccak256": "0x1e778e3cda89a87d89ee73c5a0cd6fbb0f58ddd00f0476b047355a011f264c3f",
+			"urls": [
+				"bzz-raw://4968af69572e5c8ae7b73e8b2de03d25d962e6d7ad7fc073c690818d8e746c16",
+				"dweb:/ipfs/QmZDNd2c7NxNcwpGRbgFXUXohaZ494eoC9vJFNK8LoGpcq"
+			]
+		}
+	},
+	"version": 1
+}
