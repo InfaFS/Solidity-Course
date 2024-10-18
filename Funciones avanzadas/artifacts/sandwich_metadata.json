@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ingredientes",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tiempo",
+						"type": "uint256"
+					}
+				],
+				"name": "createSandwich",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre_plato",
+						"type": "string"
+					}
+				],
+				"name": "verIngredientes",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Funciones avanzadas/internal_external.sol": "sandwich"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Funciones avanzadas/internal_external.sol": {
+			"keccak256": "0xd9dce10bb3699f45fffc7d9fb9275b8472540bd0c36eeeebdf71c75696a1cbb1",
+			"urls": [
+				"bzz-raw://2f2a71c2b708c8faa657ea3acb0a3e14c459c7b83f084b6ae648061c8a861317",
+				"dweb:/ipfs/QmZQMSHdPdgNmgFmZ8XmGvAfsUDuNXExnNhpJAWfNC9L9Y"
+			]
+		}
+	},
+	"version": 1
+}

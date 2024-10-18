@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "passwordComparer",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Funciones avanzadas/require.sol": "Require"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Funciones avanzadas/require.sol": {
+			"keccak256": "0xf055e9c1da1e06143999d4be220e5f9331133f84bc18bdc3370cae97c848be82",
+			"urls": [
+				"bzz-raw://1e0e55d9ba96581f92d82b4f8121f6e536b55897a3f16e2cd70661750508d601",
+				"dweb:/ipfs/QmW97Za6fSfj45YVNFCKBhMzb1zXuwH5RaJmsPY9T3wRq6"
+			]
+		}
+	},
+	"version": 1
+}
