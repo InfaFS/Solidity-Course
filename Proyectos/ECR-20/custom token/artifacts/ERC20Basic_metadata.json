@@ -1,10 +1,71 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initialSupply",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tokens",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tokens",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
 			{
 				"inputs": [
 					{
@@ -57,7 +118,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
+						"name": "tokenOwner",
 						"type": "address"
 					}
 				],
@@ -67,6 +128,58 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newTokenAmounts",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseTotalSupply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -106,14 +219,14 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "sender",
+						"name": "owner",
 						"type": "address"
 					},
 					{
@@ -167,11 +280,11 @@
 	},
 	"sources": {
 		"Proyectos/ECR-20/custom token/token.sol": {
-			"keccak256": "0x4aa69785c2c768d7ca3bec226ab0a842ef5d012fe4afd59bb612ad218ca7824b",
+			"keccak256": "0x68a762a0d42cbad3fb85ba01dc5065fa6459e417c9782515ffec5889dd506c0f",
 			"license": "CC0-1.0",
 			"urls": [
-				"bzz-raw://d536a1e0a54719f15b3a7e9a6d3368c1e7336b88f2f7ee70ed59739fa0ed472c",
-				"dweb:/ipfs/QmfTLmZU6UVL9bZKWhQpji4sxcqGEG27VGnNUUehRmnZAP"
+				"bzz-raw://6d7797bbebd51975cff52009bb142bf4544e875d78e0c9fd1b9e38e454bf2dd3",
+				"dweb:/ipfs/Qmf6EMg7Ydn7391ZtwGGRHoQvnGEzbBHVbf8rDAtMnLY9V"
 			]
 		}
 	},
