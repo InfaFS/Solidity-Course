@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Clientes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokens_comprados",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numTokens",
+						"type": "uint256"
+					}
+				],
+				"name": "CompraTokens",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MisTokens",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numTokens",
+						"type": "uint256"
+					}
+				],
+				"name": "incrementarTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Proyectos/DisneyTokens/disney.sol": "Disney"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Proyectos/DisneyTokens/ERC20.sol": {
+			"keccak256": "0x1fffbcd1648b3c4d5820c9bcc86c11f7bcb488d9cee4137f15bb29c29f50495b",
+			"license": "CC0-1.0",
+			"urls": [
+				"bzz-raw://fee82d1cee6f84e8cbe5f0e90a8086ef49eac848ea60a255a9bedc7bb7473d8b",
+				"dweb:/ipfs/QmY3HhbBCxzYLAkP9ShduhGTyFeqBpFN4mhbh7M3t8qkpN"
+			]
+		},
+		"Proyectos/DisneyTokens/disney.sol": {
+			"keccak256": "0x8aee6537bd73d9c66f239fd5ccea36af63e053059523093b047fb55e1de509f5",
+			"license": "CC0-1.0",
+			"urls": [
+				"bzz-raw://b01ebe271c98cc98f21c791aad458cb58e2f1a3d6857706f0f8f7cc4e885f75e",
+				"dweb:/ipfs/QmULHGUCS1xLbfAs1VM5YzCKSiW3KNBnGbejddJEVuY1hd"
+			]
+		}
+	},
+	"version": 1
+}
